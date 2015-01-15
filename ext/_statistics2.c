@@ -244,7 +244,7 @@ double pt(double q, int n)
 
 	if(q < 1.e-5 || q > 1. || n < 1)
 	{
-		fprintf(stderr,"Error : Illigal parameter  in pt()!\n");
+		//fprintf(stderr,"Error : Illigal parameter  in pt()!\n");
 		return 0.;
 	}
 
